@@ -2,7 +2,7 @@
 title: Associate Partners
 layout: Partners
 description: Partner
-permalink: "/Partners/"
+permalink: "Partners/"
 intro_image: "images/illustrations/Clients.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
