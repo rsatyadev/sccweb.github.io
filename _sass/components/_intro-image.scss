@@ -1,0 +1,130 @@
+.intro-image {
+  width: 130%;
+  height: 130%;
+  margin-top:10px;  
+}
+
+.intro-image-absolute {
+  max-width: 720px;
+  padding: 0;
+  margin-bottom: 55px;
+  margin-left: 20px;
+  @include media-breakpoint-up(sm) {
+  }
+  @include media-breakpoint-up(md) {
+    position: relative;
+    bottom: -50px;
+    left: -50px;
+    width: 700px;
+  }
+  @include media-breakpoint-up(lg) {
+    position: relative;
+    bottom: -60px;
+    left: -60px;
+    width: 700px;
+  }
+  @include media-breakpoint-up(xl) {
+    position: absolute;
+    bottom: -100px;
+    left: -70px;
+    width: 700px;
+  }
+}
+
+.intro-image-teams {
+  width: inherit;
+  margin-top: -40px;
+}
+.intro-image-absolute-teams {
+  max-width: inherit;
+  padding: 0;
+  margin-bottom: -30px;
+  @include media-breakpoint-up(sm) {
+  }
+  @include media-breakpoint-up(md) {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 500px;
+  }
+  @include media-breakpoint-up(lg) {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 500px;
+  }
+  @include media-breakpoint-up(xl) {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 500px;
+  }
+}
+
+
+.intro-image-clients {
+  width: inherit;
+  margin-top: -40px;
+}
+.intro-image-absolute-clients {
+  max-width: inherit;
+  padding: 0;
+  margin-bottom: -30px;
+  @include media-breakpoint-up(sm) {
+  }
+  @include media-breakpoint-up(md) {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 500px;
+  }
+  @include media-breakpoint-up(lg) {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 500px;
+  }
+  @include media-breakpoint-up(xl) {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 500px;
+  }
+}
+
+.intro-image-services {
+  width: 100%;
+  margin-top: -40px;
+}
+.intro-image-absolute-services {
+  max-width: inherit;
+  padding: 0;
+  margin-bottom: -30px;
+  @include media-breakpoint-up(sm) {
+  }
+  @include media-breakpoint-up(md) {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 500px;
+  }
+  @include media-breakpoint-up(lg) {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 500px;
+  }
+  @include media-breakpoint-up(xl) {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 500px;
+  }
+}
+
+.intro-image-hide-mobile {
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+}

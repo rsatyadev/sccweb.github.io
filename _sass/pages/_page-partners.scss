@@ -1,0 +1,52 @@
+.page-partners {
+  .partners-summary {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    .partners-image {
+      height: 60px;
+      width: 60px;
+      margin-right: 10px;
+      border-radius: 50%;
+      overflow: hidden;
+      img {
+        width: 60px;
+      }
+    }
+    .partners-meta {
+      flex: 1;
+      h2 {
+        margin: 0;
+        font-size: 22px;
+        font-weight: bold;
+      }
+      p {
+        color: $black;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+    .partners-content {
+      margin-top: 20px;
+      flex: 1 0 100%;
+    }
+  }
+
+  .partners-summary-large {
+    background-color: $white-offset;
+    padding: 30px;
+    border-radius: 3px;
+    .partners-image {
+      height: 90px;
+      width: 90px;
+      margin-right: 20px;
+      border-radius: 50%;
+      overflow: hidden;
+      img {
+        width: 90px;
+      }
+    }
+  }
+}

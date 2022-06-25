@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Chetak Enterprises Ltd.",
+    "description": "Chetak Enterprises Limited, is a national & state Highway Infrastructure decevelopment enterprise based out of Rajasthan",
+    "image": {
+      "url": "images/features/Chetak_infra.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Central Depositry Services Ltd",
+    "description": "CDSL is a leading Market Infrastructure Institution of India that fascilitates holding & transaction of securities in electronic format for Stock Exchanges",
+    "image": {
+      "url": "images/features/CDSL-Logo.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "AVIOM India Housing Finance Ltd",
+    "description": "AVIOM is a housing finance company catering to low-income households in semi-urban areas. AVIOM also works towards empowering women and providing them financial independence.",
+    "image": {
+      "url": "images/features/Aviom-logo-new.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Ravi Rajan & Co LLP",
+    "description": "Ravi Rajan & Co are a team of dynamic professionals engaged in Accounting, Audit & Assurance Services Across India",
+    "image": {
+      "url": "images/Partners/Ravi-rajan-co-logo.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "ProInd Business Solutions Pvt. Ltd.",
+    "description": "ProInd Business Solutions is an OEM engaged in Legal & Compliance Management Software for various industries. ",
+    "image": {
+      "url": "images/Partners/proind-logo.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

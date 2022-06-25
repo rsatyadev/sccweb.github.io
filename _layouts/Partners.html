@@ -1,0 +1,41 @@
+---
+layout: default
+bodyClass: "page-teams"
+---
+
+<div class="intro">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+                {{ content }}
+            </div>
+            {% if page.intro_image %}
+            <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+                <img alt={{ page.title }} class="intro-image-teams{% if page.intro-image-absolute-teams %} intro-image-absolute-teams{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+            </div>
+            {% endif %}
+       </div>
+    </div>
+</div>
+
+<div class="container pt-6 pb-6">
+    <div class="row">
+        {% assign promoted_Partners = site.Partners | where: "promoted", true | sort: "weight" %}
+        {% for Partners in promoted_Partners %}
+        <div class="col-12 col-md-6 mb-2">
+            <div class="team team-summary team-summary-large">
+                {% if Partners.image %}
+                <div class="team-image">
+                    <img width="90" height="90" alt="{{ Partners.title }}" class="img-fluid mb-2" src="{{ Partners.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name">{{ Partners.title }}</a></h2>
+                    <p class="team-description">{{ Partners.jobtitle }}</p>
+                </div>
+                <div class="team-content">{{ Partners.content | truncate: 250 }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
