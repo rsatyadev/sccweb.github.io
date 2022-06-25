@@ -1,18 +1,18 @@
 main:
   - name: "Services"
-    url: "/services/"
+    url: "services/"
     weight: 2
   - name: "Team"
-    url: "/team/"
+    url: "team/"
     weight: 4
   - name: "About"
-    url: "/about/"
+    url: "about/"
     weight: 5
   - name: "Contact"
-    url: "/contact/"
+    url: "contact/"
     weight: 6
   - name: "Associate Partners"
-    url: "/Partners/"
+    url: "Partners/"
     weight: 3
 
 footer:
@@ -20,17 +20,17 @@ footer:
     url: "/"
     weight: 1
   - name: "Services"
-    url: "/services/"
+    url: "services/"
     weight: 2
   - name: "Team"
-    url: "/team/"
+    url: "team/"
     weight: 4
   - name: "About"
-    url: "/about/"
+    url: "about/"
     weight: 5
   - name: "Contact"
-    url: "/contact/"
+    url: "contact/"
     weight: 6
   - name: "Associate Partners"
-    url: "/Partners/"
+    url: "Partners/"
     weight: 3
