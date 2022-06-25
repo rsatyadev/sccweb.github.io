@@ -2,7 +2,7 @@
 title: "Swaroop Evani"
 date: 2018-11-19T10:47:58+10:00
 draft: false
-image: "images/team/Swaroop_evani.svg"
+image: "images/team/swaroop_evani.svg"
 jobtitle: "Director, Marketing & Business Development"
 linkedinurl: "https://www.linkedin.com/in/kesav-swaroop-evani"
 promoted: true
