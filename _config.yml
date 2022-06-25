@@ -1,5 +1,5 @@
 domain: 'rsatyadev.github.io/website2'
-baseurl: ""
+baseurl: "/"
 url: ""
 permalink: pretty
 title: 'SCC'
