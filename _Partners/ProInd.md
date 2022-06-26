@@ -10,4 +10,4 @@ weight: 1
 layout: Partners
 ---
 
-PronInd specializes in IT based applications for Internal & External Compliance management. The combined capabilities of this association assists our clients in strengthening & streamling their compliance & internal control.
+Proind enables simplification and automation of legal and compliance management processes which goes beyond legacy software to provide knowledge and actionable insight which are aligned with business strategies..
